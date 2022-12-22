@@ -1,0 +1,98 @@
+header{
+    padding: 2px;
+    margin: 0px;
+    box-sizing:border-box;
+    background-color: green;
+}
+footer{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: green;
+    margin-top: 20%;
+}
+.first{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(108, 213, 108);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+   
+}
+span{
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: black;
+    transition: 1s;
+}
+*{
+    font-family: Arial;
+}
+form{
+    max-width: 550px;
+    width: 90%;
+    background: rgb(27, 167, 64);
+    margin: 17ch auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+    text-align: center;
+}
+label{
+    display: block;
+    margin: 20px 0;
+}
+
+input, textarea {
+   width: 100%;
+   padding: 10px;
+   box-sizing: border-box;
+   outline: none;
+   resize: none;
+   border: none;
+   border-bottom: 1px solid #D3D3D3;
+}
+input[type="submit"]{
+margin-top: 30px;
+width: 90%;
+max-width: 280px;
+color: green;
+font-size: 17px;
+cursor: pointer;
+border-radius: 3px;
+}
+.error{
+    color: red;
+}
+.error border{
+    border-bottom: 1px solid red;
+}
+#success{
+    color: green;
+}

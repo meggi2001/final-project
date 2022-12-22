@@ -1,0 +1,116 @@
+header{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: green;
+}
+footer{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: green;
+    margin-top: 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: green;
+    
+   
+}
+span{
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: black;
+    transition: 1s;
+}
+.head{
+    color: green;
+    margin-left: -20%;
+    margin-top: 5%;
+    
+}
+.text1{
+    color: green;
+    margin-left: -60%;
+    margin-top: 5%;
+   
+}
+img{
+        width: 600px;
+        height: 535px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.section1{
+    justify-content:center;
+    display: flex;
+}
+.section2{
+    justify-content:center;
+    display: flex;
+}
+.img01{
+    margin-left: 100%;
+    margin-top: -90%;
+}
+.text2{
+    color: green;
+    margin-top: 0%;
+}
+.head2{
+    color: green;
+    margin-top: 10%;
+}
+.head3{
+    color: green;
+    margin-left: -10%;
+    margin-top: 5%;
+    
+}
+.text3{
+    color: green;
+    margin-left: 5%;
+    margin-top: 5%;
+   
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.section3{
+    justify-content:center;
+    display: flex;;
+}
+.img02{
+    width: 600px;
+    height: 600px;
+    margin-top: 12%;
+}
+body{
+    background-color:rgb(191, 244, 191);
+}
